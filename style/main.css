@@ -211,6 +211,20 @@ header{
     .productos{
         grid-gap: 10px;
     }
+    .producto img{
+        width: 40%;
+    }
+    .producto p{
+        font-size: 12px;
+    }
+    .boton{
+        background-color: black;
+        border: 1px solid black; ;
+        color: white;
+        padding:1%;
+        transition: 1s;
+        border-radius: 3px;
+    }
 }
 
 
