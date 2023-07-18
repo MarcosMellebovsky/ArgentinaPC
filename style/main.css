@@ -99,7 +99,7 @@ header{
     padding: 10px;
 }
 .boton2:hover{
-    background-color: rgb(147, 140, 140);
+    background-color: rgb(60, 59, 59);
 }
  
 @media (max-width: 1076px){
@@ -154,8 +154,8 @@ header{
     margin-top: 3%;
     margin-bottom: 8%;
     background-color: rgba(98, 95, 95, 0.701);
-    width: 100%;
     text-align: center;
+    margin: 1px;
     padding: 20px;
     border: 3px solid white;
     transition: 1s;
@@ -182,16 +182,15 @@ header{
     border: 1px solid black; ;
     color: white;
     padding:2%;
-    transition: 1s;
     border-radius: 5px;
 }
 .producto:hover {
     transform: translateX(-5px);
 }
 .boton:hover{
-    background-color: white;
+    background-color: rgb(198, 193, 193);
     color: black;
-    border: 1px solid white;
+    border:  rgb(198, 193, 193);
 }
 
 
@@ -485,7 +484,10 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgb(44, 43, 43);
-    padding: 15px;
+    padding: 10px;
     color: white;
+}
+.footer p{
+    font-size: 15px;
 }
 
