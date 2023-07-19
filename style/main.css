@@ -561,3 +561,18 @@ header{
     background-color: gray;
     color: black;
 }
+@media screen and (max-width:479px) {
+    .title-compra{
+        font-size: 20px;
+       
+    }
+}
+@media screen and (max-width:353px) {
+    .title-compra{
+        font-size: 15px;
+    }
+    .formulario-compra label{
+        font-size: 12px;
+    }
+    
+}
