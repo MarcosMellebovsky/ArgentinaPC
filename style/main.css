@@ -428,10 +428,9 @@ header{
     justify-content: center;
     gap: 50px;
     margin: 30px;
+    width: 50%;
 }
-.mapa{
-    border-radius: 5px;
-}
+
 .Contactanoss{
     display: flex;
     justify-content: center;  
