@@ -222,6 +222,10 @@ header{
         transition: 1s;
         border-radius: 3px;
     }
+    .producto:hover {
+        transform:none;
+    }
+
 }
 
 
