@@ -564,15 +564,45 @@ header{
 @media screen and (max-width:479px) {
     .title-compra{
         font-size: 20px;
-       
+       font-weight: bold;
     }
 }
-@media screen and (max-width:353px) {
+@media screen and (max-width:482px) {
     .title-compra{
         font-size: 15px;
+        font-weight: bold;
     }
     .formulario-compra label{
         font-size: 12px;
     }
+
     
+}
+@media screen and (max-width:388px) {
+    .title-compra{
+        font-size: 12px;
+        font-weight: bold;
+    }
+   
+    
+}
+@media screen and (max-width:284px) {
+    .title-compra{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .formulario-compra label{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:190px) {
+    .title-compra{
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .formulario-compra label{
+        font-size: 7px;
+    }
+
 }
