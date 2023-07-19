@@ -520,3 +520,44 @@ header{
     font-size: 15px;
 }
 
+
+
+/*comprar*/
+.body-compra{
+    background-color: rgb(224, 219, 219);
+}
+.title-compra{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   
+}
+.container-compra{
+    margin-top: 10%;
+    display: flex;
+   justify-content: center;
+}
+.formulario-compra{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px;
+    gap: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+    margin-bottom: 40px;
+    width: 70%
+}
+.butonn{
+    margin: 4px;
+    padding: 10px;
+    background-color: black;
+    border: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.butonn:hover{
+    background-color: gray;
+    color: black;
+}
