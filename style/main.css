@@ -494,11 +494,11 @@ header{
         padding-bottom: 60px;
     }
     .parrafo-contacto{
+        padding-top: 50px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 90%;
-        height: 100%;
     }
     
 }
