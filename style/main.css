@@ -360,6 +360,9 @@ header{
     
 }
 @media screen and (max-width: 838px) {
+    .title-nuestroEquipo{
+        font-size: 20px;
+    }
     .nuestroEquipo{
         grid-template-columns: 1fr;
     }
@@ -388,13 +391,28 @@ header{
         width: 50%;
         padding: 0;
     }
+    .nuestroEquipo-integrantes h4{
+        font-size: 10px;
+    }
+    .title-nuestroEquipo{
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 573px){
-    .button-equipo{
-        font-size: 12px;
-    }
+    
     .button-equipo{
         font-size: 10px;
+    }
+    .nuestroEquipo-integrantes h4{
+        font-size: 8px;
+    }
+    .title-nuestroEquipo{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:424px){
+    .button-equipo{
+        font-size: 5px;
     }
 }
 
@@ -494,10 +512,9 @@ header{
         text-align: center; 
     }
     .div-mapa{
-        display: flex;
-        justify-content: center;
+       
         width: 95%;
-        gap: 0;
+        
     }  
     .mapa{
         padding-right: 10px;
@@ -512,6 +529,7 @@ header{
     }
     
 }
+
 /*footer*/
 .footer{
     margin-top: 20px;
