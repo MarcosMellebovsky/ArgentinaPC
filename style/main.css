@@ -321,7 +321,7 @@ header{
     transition: 1S;
 }
 .nuestroEquipo-integrantes img{
-    width: 80%;
+    width: 70%;
     
 }
 .nuestroEquipo-integrantes h4{
@@ -389,12 +389,15 @@ header{
         padding: 0;
     }
 }
-@media screen and (max-width: 561px){
+@media screen and (max-width: 573px){
     .button-equipo{
-        width: 50%;
-        padding: 0;
+        font-size: 12px;
+    }
+    .button-equipo{
+        font-size: 10px;
     }
 }
+
 
 
 /*contacto*/
@@ -459,6 +462,9 @@ header{
     box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
     margin-bottom: 40px;
     width: 70%;
+}
+.formulario label{
+    font-weight: bold;
 }
 
 .submit-enviar{
@@ -547,6 +553,9 @@ header{
     box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
     margin-bottom: 40px;
     width: 70%
+}
+.formulario-compra label{
+    font-weight: bold;
 }
 .butonn{
     margin: 4px;
