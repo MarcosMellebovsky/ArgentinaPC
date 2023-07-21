@@ -193,7 +193,11 @@ header{
     border:  rgb(198, 193, 193);
 }
 
-
+@media screen and (max-width:1629px) {
+    .productos{
+        grid-template-columns: 1fr 1fr 1fr;    
+    } 
+}
 
 @media screen and (max-width: 1180px) {
     .productos{
